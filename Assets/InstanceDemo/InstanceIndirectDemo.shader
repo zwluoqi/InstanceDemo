@@ -17,7 +17,7 @@ Shader "Unlit/InstanceIndirectDemo"
             // make fog work
             // #pragma multi_compile_fog
             // #pragma multi_compile_instancing
-            // #pragma target 4.5
+            #pragma target 4.5
             
             #include "UnityCG.cginc"
 
